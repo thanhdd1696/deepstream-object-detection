@@ -1,0 +1,4 @@
+[source]
+#uri=/opt/nvidia/deepstream/deepstream/samples/streams/sample_720p.h264
+uri=/home/thanh/Downloads/sheep-test.h264
+

@@ -1,0 +1,25 @@
+property:
+  gpu-id: 0
+  net-scale-factor: 0.0039215697906911373
+  model-color-format: 0
+  onnx-file: /home/thanh/Desktop/aeq/repos/DeepStream-Yolo/yolov8m_sheep_dog_human_12052023_300epochs.onnx
+  model-engine-file: /home/thanh/Desktop/aeq/repos/DeepStream-Yolo/yolov8m_sheep_dog_human_12052023_300epochs.onnx_b1_gpu0_fp16.engine
+  #int8-calib-file: calib.table
+  labelfile-path: /home/thanh/Desktop/aeq/repos/DeepStream-Yolo/labels.txt
+  batch-size: 1
+  network-mode: 2
+  num-detected-classes: 80
+  interval: 0
+  gie-unique-id: 1
+  process-mode: 1
+  network-type: 0
+  cluster-mode: 2
+  maintain-aspect-ratio: 1
+  symmetric-padding: 1
+  parse-bbox-func-name: NvDsInferParseYolo
+  custom-lib-path: /home/thanh/Desktop/aeq/repos/DeepStream-Yolo/nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
+
+class-attrs-all:
+  nms-iou-threshold: 0.7
+  pre-cluster-threshold: 0.25
+  topk: 300
